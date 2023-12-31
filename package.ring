@@ -5,11 +5,11 @@ aPackageInfo = [
 	:developer = "Mahmoud Fayed",
 	:email = "msfclipper@yahoo.com",
 	:license = "MIT License",
-	:version = "1.0.0",
+	:version = "1.0.1",
 	:ringversion = "1.19",
 	:versions = 	[
 		[
-			:version = "1.0.0",
+			:version = "1.0.1",
 			:branch = "master"
 		]
 	],
@@ -25,6 +25,7 @@ aPackageInfo = [
 	],
 	:ringfolderfiles = 	[
 		"bin/load/threads.ring",
+		"bin/ring_threads.dll",
 		"extensions/ringthreads/buildclang.sh",
 		"extensions/ringthreads/buildgcc.sh",
 		"extensions/ringthreads/buildvc.bat",
@@ -44,7 +45,6 @@ aPackageInfo = [
 		"tools/ring2exe/libs/threads.ring"
 	],
 	:windowsfiles = 	[
-		"bin/ring_threads.dll"
 	],
 	:linuxfiles = 	[
 
